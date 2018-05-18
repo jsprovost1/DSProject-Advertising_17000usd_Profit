@@ -10,17 +10,29 @@ The task is to predict who will most likely click on the ad. Let's consider that
 Let's assume that the marketing company spends 1000$ per potential customer which they believed will click on the ad. For each customer that is targeted with the ad campaign and that clicks on the ad, an overall profit of 100$ is estimated. However, if a targeted customer ends up not clicking on the ad, the company loses 1050$. Therefore we can conclude that for each customer that was not targeted by the ad campaign and who clicks on the ad, an overall profit of 1100$ is recorded for the company. 
 
 ### Using Logistic Regression To Maximize the Revenue And Minimize The Loss
-After exlploring the data, we came to the conclusion that 
+After exlploring the data, my analysis brought me to the conclusion that the following features are good predictors of whether a customer will click or not on an ad:
+- Daily Time Spent on site
+- Daily Internet Usage
+- Age
+- Country
+- Area income
 
+Furthermore after adjusting our threshold to minimize the prediction that a customer will click on the ad, while he/she will not in reality, our model predicts that for the next 200 customers, **we would make a profit of 19,000$**. That corresponds to  ratio of 96$/customer considering that our sample is representative of the general population.
 
-The name "Pokémon" comes from the contraction of "pocket" and "monster", and was first introduced in 1989 when the first video game was released on the GameBoy. The goal of the game was to collect the different species of Pokemons, and to train some of your creatures in order to compete against other players. The outcome of a fight could be influenced by the characteristics of each Pokemon. In this notebook, we will explore these characteristics as published on the Kaggle. This journey will include two parts:
+### Actionable Recommendations
+According to our model, we can identify potential clients by getting information about users on:
 
-    An exploration of the data
-    A prediction of who will win their next match
+    Daily Time Spent on site
+    Daily Internet Usage
+    Age
+    Country
+    Area income
 
-Exploration Of The Data
+By getting this information, we can target new customers wwith our ad campaign to maximize the chance of a return on investment. We can speculate that the level of education could correlate with our finding since it was been previously reported that there is a correlation between the income and the level of education. So our targeted population would be customers with:
 
-In the first section, we will explore the characteristics of the different Pokemons and perform data analysis in order to extract specific information about this sample. Furthermore, we will perform feature engineering which will be extremely useful in the second part where we will perform machine learning in order to predict the potential winner for each fight. This first section was done using R.
-Prediction Of The Next Winner
+    Lower income
+    Spending less time on the website
+    Spending less time on the internet
+    Who are older than our average sample (mean around 40 years old)
 
-In this section, we tested several algorithms, including Logistic Regression, K-Nearest Neighbors, and Random Forest to name a few. Our Random Forest ended up being the one which perform the best with a striking 99% accuracy on our validation set. This second section was accomplished using scikit-learn in Python.
+Also by increasing our threshold from our model, we can minimize the false positives (e.g., minimizing loss) which optimizes our business approach.
