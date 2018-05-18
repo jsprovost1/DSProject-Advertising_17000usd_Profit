@@ -20,19 +20,13 @@ After exlploring the data, my analysis brought me to the conclusion that the fol
 Furthermore after adjusting our threshold to minimize the prediction that a customer will click on the ad, while he/she will not in reality, our model predicts that for the next 200 customers, **we would make a profit of 19,000$**. That corresponds to  ratio of 96$/customer considering that our sample is representative of the general population.
 
 ### Actionable Recommendations
-According to our model, we can identify potential clients by getting information about users on:
+According to our model, we can identify potential clients by getting information about users on the features identified previously.
 
-    Daily Time Spent on site
-    Daily Internet Usage
-    Age
-    Country
-    Area income
+By getting this information, the marketing company can target new customers with their ad campaign to maximize the chance of a return on investment. We can speculate that the level of education could correlate with these findings since it was been previously reported that income correlates with the level of education. So the targeted population should be customers with:
 
-By getting this information, we can target new customers wwith our ad campaign to maximize the chance of a return on investment. We can speculate that the level of education could correlate with our finding since it was been previously reported that there is a correlation between the income and the level of education. So our targeted population would be customers with:
-
-    Lower income
-    Spending less time on the website
-    Spending less time on the internet
-    Who are older than our average sample (mean around 40 years old)
+- Lower income
+- Spending less time on the website
+- Spending less time on the internet
+- Who are older than our average sample (mean around 40 years old)
 
 Also by increasing our threshold from our model, we can minimize the false positives (e.g., minimizing loss) which optimizes our business approach.
