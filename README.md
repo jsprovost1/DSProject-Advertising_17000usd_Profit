@@ -1,6 +1,3 @@
-# DSProject-InProgress-Advertising
-
-
 
 # Which Customer Will Click On The Ad Campaign: Predicting A Profit Of Nearly 20,000$
 
