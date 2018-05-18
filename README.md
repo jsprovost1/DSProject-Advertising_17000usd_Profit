@@ -1,5 +1,5 @@
 
-# Which Customer Will Click On The Ad Campaign: Predicting A Profit Of Nearly 20,000$
+# Which Customers Will Click On The Ad Campaign: Predicting A Profit Of Nearly 20,000$
 
 The task is to predict who will most likely click on the ad. Let's consider that a marketing company is asking for our insight on whether their ad campaign is generating profit or not. Firstly, we have to understand what constitutes a profit and a loss.
 
