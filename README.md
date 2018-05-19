@@ -1,5 +1,5 @@
 
-# Which Customers Will Click On The Ad Campaign: Predicting A Profit Of Nearly 20,000$
+# Which Customers Will Click On The Ad Campaign: Predicting A Profit Of Nearly 17,000$
 
 The task is to predict who will most likely click on the ad. Let's consider that a marketing company is asking for our insight on whether their ad campaign is generating profit or not. Firstly, we have to understand what constitutes a profit and a loss.
 
@@ -16,7 +16,7 @@ After exlploring the data, my analysis brought me to the conclusion that the fol
 - Country
 - Area income
 
-Furthermore after adjusting our threshold to minimize the prediction that a customer will click on the ad, while he/she will not in reality, our model predicts that for the next 200 customers, **we would make a profit of 19,000$**. That corresponds to  **ratio of 96$/customer** considering that our sample is representative of the general population.
+Furthermore after adjusting our threshold to minimize the prediction that a customer will click on the ad, while he/she will not in reality, our model predicts that for the next 200 customers, **we would make a profit of 16,900$**. That corresponds to  **ratio of 84.50$/customer** considering that our sample is representative of the general population and that the distribution of each class is balanced as in our data set.
 
 
 ### Actionable Recommendations
