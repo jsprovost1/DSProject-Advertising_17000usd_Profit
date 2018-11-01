@@ -1,5 +1,5 @@
 
-# Which Customers Will Click On The Ad Campaign: Predicting A Profit Of Nearly 17,000$
+# Which Customers Will Click On The Ad Campaign: Predicting A Profit Of Nearly 9,000$
 
 The task is to predict who will most likely click on the ad. Let's consider that a marketing company is asking for our insight on whether their ad campaign is generating profit or not. Firstly, we have to understand what constitutes a profit and a loss.
 
@@ -13,16 +13,15 @@ After exlploring the data, my analysis brought me to the conclusion that the fol
 - Daily Time Spent on site
 - Daily Internet Usage
 - Age
-- Country
 - Area income
 
-Furthermore after adjusting our threshold to minimize the prediction that a customer will click on the ad, while he/she will not in reality, our model predicts that for the next 200 customers, **we would make a profit of 16,900$**. That corresponds to  **ratio of 84.50$/customer** considering that our sample is representative of the general population and that the distribution of each class is balanced as in our data set.
+Furthermore after adjusting our threshold to minimize the prediction that a customer will click on the ad, while he/she will not in reality, our model predicts that for the next 200 customers, **we would make a profit of 8,800$**. We predict 97 new customers for a profit of 9,700.00$, 3 customers not initially targeted by the compaign clicking on our ad for a profit of 3,300.00$, and a loss of 4,200.00$ from customers that are being targeted but who did not respond to the compaign. It is worth mentioning that our sample an equal amount of both positive and negative, corresponding to a well balanced sample.
 
 
 ### Actionable Recommendations
 According to our model, we can identify potential clients by getting information about users on the features identified previously.
 
-By getting this information, the marketing company can target new customers with their ad campaign to maximize the chance of a return on investment. We can speculate that the level of education could correlate with these findings since it was been previously reported that income correlates with the level of education. So the targeted population should be customers with:
+By getting this information, the marketing company can target new customers with their ad campaign to maximize the chance of a return on investment. We can speculate that the level of education could correlate with these findings since it was been previously reported that income correlates with the level of education. From our exploratory data analysis and our machine learning results, our targeted population would be customers with:
 
 - Lower income
 - Spending less time on the website
