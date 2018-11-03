@@ -9,13 +9,13 @@ Let's assume that the marketing company spends 1000$ per potential customer whic
 
 
 ### Using Logistic Regression To Maximize the Revenue And Minimize The Loss
-After exlploring the data, my analysis brought me to the conclusion that the following features are good predictors of whether a customer will click or not on an ad:
+After exploring the data, my analysis brought me to the conclusion that the following features are good predictors of whether a customer will click or not on an ad:
 - Daily Time Spent on site
 - Daily Internet Usage
 - Age
 - Area income
 
-Furthermore after adjusting our threshold to minimize the prediction that a customer will click on the ad, while he/she will not in reality, our model predicts that for the next 200 customers, **we would make a profit of 8,800$**. We predict 97 new customers for a profit of 9,700.00$, 3 customers not initially targeted by the compaign clicking on our ad for a profit of 3,300.00$, and a loss of 4,200.00$ from customers that are being targeted but who did not respond to the compaign. It is worth mentioning that our sample an equal amount of both positive and negative, corresponding to a well balanced sample.
+Furthermore after adjusting our threshold to minimize the prediction that a customer will click on the ad, while he/she will not in reality, our model predicts that for the next 200 customers, **we would make a profit of 8,800$**. We predict 97 new customers for a profit of 9,700.00$, 3 customers not initially targeted by the campaign clicking on our ad for a profit of 3,300.00$, and a loss of 4,200.00$ from customers that are being targeted but who did not respond to the campaign. It is worth mentioning that our sample an equal amount of both positive and negative, corresponding to a well balanced sample.
 
 
 ### Actionable Recommendations
